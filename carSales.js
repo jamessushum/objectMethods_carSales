@@ -144,10 +144,10 @@ searchInput.addEventListener('keypress', event => {
   if (event.charCode === 13) {
     const searchTerm = event.target.value
 
-    salesByWeek.forEach(
-      saleObject => {
-        saleObject.sales_agent.
-      }
-    )
+   salesByWeek.forEach(
+       sale => {
+          
+       }
+   )
   }
 })
